@@ -1,0 +1,10 @@
+allprojects {
+    group 'com.marlboro'
+    version '1.0.0'
+}
+subprojects {
+    apply plugin: 'java'
+    repositories {
+        jcenter()
+    }
+}
